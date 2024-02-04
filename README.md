@@ -22,7 +22,10 @@ cd RNA-km
 pip install -r requirements.txt
 ```
 3. Download pretrained [model weight](https://drive.google.com/file/d/1DI79-R33R396ZdbNcqbADQMP7Nprb_ze/view?usp=sharing) and place the pth file into the weight folder
-
+```sh
+mkdir weight
+mv weight.pth weight 
+```
 ## Usage
 1. RNA-km.py: extract RNA sequence representation (L * 1024) and attention maps from sequence (fasta format)  
 ```sh
